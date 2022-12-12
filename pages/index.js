@@ -11,7 +11,7 @@ const Home = () => {
   console.log(event.target.value);
   setUserInput(event.target.value);
   };
-  
+
   return (
     <div className="root">
       <div className="container">
@@ -29,6 +29,13 @@ const Home = () => {
           placeholder="Start typing here, remember this is an AI and isn't a replacement for professional support." 
           value={userInput}
           onChange={onUserChangedText} />
+          <div className="prompt-buttons">
+            <a className="generate-button" onClick={null}>
+              <div className="generate">
+                <p>Generate</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <div className="badge-container grow">
