@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
-          <textarea placeholder="start typing here, remember this is an AI and isn't a replacement for professional support." className="prompt-box" />
+          <textarea placeholder="Start typing here, remember this is an AI and isn't a replacement for professional support." className="prompt-box" />
         </div>
       </div>
       <div className="badge-container grow">
