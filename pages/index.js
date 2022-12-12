@@ -8,15 +8,15 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>sup, insert your headline here</h1>
+            <h1>AI Wellbeing Assistant</h1>
           </div>
           <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
+            <h2>Feel free to ask away</h2>
           </div>
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
-          <textarea placeholder="start typing here" className="prompt-box" />
+          <textarea placeholder="start typing here, remember this is an AI and isn't a replacement for professional support." className="prompt-box" />
         </div>
       </div>
       <div className="badge-container grow">
