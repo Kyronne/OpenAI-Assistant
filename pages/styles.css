@@ -317,7 +317,7 @@ textarea {
     }
 
     .root {
-        overflow: auto;
+        overflow-y: auto;
     }
     
     .container {
