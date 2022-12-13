@@ -20,7 +20,7 @@ const Home = () => {
             <h1>AI Wellbeing Assistant</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Feel free to ask away</h2>
+            <h2>F</h2>
           </div>
         </div>
         {/* Add this code here*/}
