@@ -6,6 +6,7 @@ body {
     padding: 0;
     font-family: 'Manrope', sans-serif;
     width: 100%;
+    
 }
 
 .root {
@@ -83,6 +84,7 @@ body {
     align-items: center;
     position: relative;
     padding: 0px;
+    display: flex;
 }
 
 .prompt-box {
@@ -301,7 +303,7 @@ textarea {
 
 @media screen and (max-width: 500px) {
     .container {
-        max-width: 300px;
+        max-width: 400px;
         width: 100%;
         overflow-x: hidden;
     }
@@ -323,7 +325,7 @@ textarea {
     }
 
     .prompt-container {
-        max-width: 400px;
+        max-width: none;
         width: 100%;
     }
 
