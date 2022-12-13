@@ -17,7 +17,7 @@ body {
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
-    overflow-y: auto;
+    overflow: hidden;
     padding: 0px;
     position: relative;
 }
@@ -314,6 +314,10 @@ textarea {
 @media screen and (max-width: 500px) {
     .body
     { overflow-y: scroll;
+    }
+
+    .root {
+        overflow: auto;
     }
     
     .container {
