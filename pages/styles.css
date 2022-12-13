@@ -307,6 +307,7 @@ textarea {
     font-style: normal;
     text-align: center;
     opacity:  .6;
+    margin: 10px;
 }
 
 @media screen and (max-width: 500px) {
