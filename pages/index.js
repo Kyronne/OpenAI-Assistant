@@ -48,8 +48,8 @@ const Home = () => {
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
-          <textarea  className="prompt-box" 
-          placeholder="Start typing here, remember this is an AI and isn't a replacement for professional support." 
+          <textarea  className="prompt-box" type="text"
+          placeholder="Type here, remember this is an AI and isn't a replacement for professional support." 
           value={userInput}
           onChange={onUserChangedText} />
           <div className="prompt-buttons">
@@ -75,18 +75,7 @@ const Home = () => {
             )}
         </div>
       </div>
-      <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
-        </a>
-      </div>
+
     </div>
   );
 };
