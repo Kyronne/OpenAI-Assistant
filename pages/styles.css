@@ -290,7 +290,7 @@ textarea {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
-    overflow: auto;
+    
 }
 
 .output-content p {
@@ -311,6 +311,8 @@ textarea {
 }
 
 @media screen and (max-width: 500px) {
+    .body{ overflow-y: scroll;}
+    
     .container {
         max-width: 400px;
         width: 100%;
@@ -337,6 +339,10 @@ textarea {
     .prompt-container {
         max-width: none;
         width: 100%;
+    }
+
+    .output-content {
+        overflow-y: visible;
     }
 
     .prompt-box {
