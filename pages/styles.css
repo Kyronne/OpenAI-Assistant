@@ -290,6 +290,7 @@ textarea {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
+    overflow: auto;
 }
 
 .output-content p {
