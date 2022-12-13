@@ -51,7 +51,7 @@ body {
 .header-title h1 {
     width: 100%;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 1.2em;
     text-align: center;
     margin: 0;
@@ -97,7 +97,7 @@ body {
     padding: 20px;
     position: relative;
     width: 610px;
-    max-width: 90%;
+    margin: auto;
     will-change: transform;
     overflow: auto;
     outline: none;
@@ -275,6 +275,7 @@ textarea {
     border-top-width: 5px;
     padding: 20px;
     max-width: 90%;
+    margin: auto;
     /* max-width: 25%; */
     flex-direction: column;
     justify-content: flex-start;
