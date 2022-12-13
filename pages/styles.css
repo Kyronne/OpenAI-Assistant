@@ -311,7 +311,9 @@ textarea {
 }
 
 @media screen and (max-width: 500px) {
-    .body{ overflow-y: scroll;}
+    .body
+    { overflow-y: scroll;
+    }
     
     .container {
         max-width: 400px;
@@ -343,6 +345,7 @@ textarea {
 
     .output-content {
         overflow-y: visible;
+        height: 30%;
     }
 
     .prompt-box {
