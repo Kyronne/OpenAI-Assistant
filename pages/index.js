@@ -48,11 +48,11 @@ const Home = () => {
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
-          <textarea  className="prompt-box" type="text"
+          <div className="prompt-input"><textarea  className="prompt-box" type="text"
           placeholder="Type here, remember this is an AI and isn't a replacement for professional support." 
           value={userInput}
-          onChange={onUserChangedText} />
-          <div className="prompt-buttons">
+          onChange={onUserChangedText} /> </div>
+        <div className="prompt-buttons">
             <a
               className={isGenerating ? 'generate-button loading' : 'generate-button'}
               onClick={callGenerateEndpoint} >
