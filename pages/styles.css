@@ -97,7 +97,7 @@ body {
     padding: 20px;
     position: relative;
     width: 610px;
-    max-width: 1200px;
+    max-width: 90%;
     will-change: transform;
     overflow: auto;
     outline: none;
@@ -274,6 +274,7 @@ textarea {
     border-style: solid;
     border-top-width: 5px;
     padding: 20px;
+    max-width: 90%;
     /* max-width: 25%; */
     flex-direction: column;
     justify-content: flex-start;
