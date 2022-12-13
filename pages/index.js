@@ -75,7 +75,7 @@ const Home = () => {
             )}
         </div>
       </div>
-    <div className='footer'> <h3>Built Using OpenAI, and isn't a replacement for professional help.</h3></div>    
+    <div className='footer'> <h3>Built Using OpenAI. Isn't a replacement for professional help.</h3></div>    
     </div>
   );
 };
