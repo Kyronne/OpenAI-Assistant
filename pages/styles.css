@@ -238,7 +238,7 @@ textarea {
     gap: 10px;
     height: min-content;
     max-width: 1200px;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     width: 100%;
 }
@@ -345,7 +345,6 @@ textarea {
 
     .output-content {
         overflow-y: visible;
-        max-height: 300px;
     }
 
     .prompt-box {

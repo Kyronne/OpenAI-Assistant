@@ -63,6 +63,11 @@ const Home = () => {
             </div>
           {apiOutput && (
         <div className="output">
+          <div className="output-header-container">
+            <div className="output-header">
+            <h3>Output</h3>
+        </div>
+          </div>
               <div className="output-content">
                 <p>{apiOutput}</p>
           </div>
@@ -71,7 +76,7 @@ const Home = () => {
         </div>
       </div>
     <div className='footer'> <h3>Built Using OpenAI. I
-      sn't a replacement for professional help.</h3></div>    
+      Isn't a replacement for professional help.</h3></div>    
     </div>
   );
 };
