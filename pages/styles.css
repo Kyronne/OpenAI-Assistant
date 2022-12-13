@@ -345,7 +345,7 @@ textarea {
 
     .output-content {
         overflow-y: visible;
-        height: 30%;
+        max-height: 300px;
     }
 
     .prompt-box {
