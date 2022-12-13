@@ -43,13 +43,13 @@ const Home = () => {
             <h1>AI Wellbeing Assistant</h1>
           </div>
           <div className="header-subtitle">
-            <h2>How can I help?</h2>
+            <h2>Ask a question to get Wellbeing advice.</h2>
           </div>
         </div>
         {/* Add this code here*/}
         <div className="prompt-container">
           <div className="prompt-input"><textarea  className="prompt-box" type="text"
-          placeholder="Type here, this is an AI and isn't a replacement for professional support." 
+          placeholder="Type here :)." 
           value={userInput}
           onChange={onUserChangedText} /> </div>
         <div className="prompt-buttons">
@@ -75,7 +75,7 @@ const Home = () => {
             )}
         </div>
       </div>
-
+    <div className='footer'> <h3>Built Using OpenAI, and isn't a replacement for professional help.</h3></div>    
     </div>
   );
 };
