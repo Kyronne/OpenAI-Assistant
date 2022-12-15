@@ -37,6 +37,9 @@ const Home = () => {
 
   return (
     <div className="root">
+      <Head>
+        <title>AI Wellbeing Assistant</title>
+      </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
