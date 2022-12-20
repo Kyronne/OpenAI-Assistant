@@ -5,7 +5,7 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
-const basePromptPrefix = `I want you to act as a wellbeing coach, giving advice in a supportive way, support the person to be resilient and make this advice achievable and actionable. Take inspiration from Gabor Maté, Marsha P Linehan and Brené Brown in your response. 
+const basePromptPrefix = `I want you to act as a wellbeing coach, giving advice in a supportive way help the person to be resilient by making this advice achievable and actionable. Take inspiration from Gabor Maté, Marsha P Linehan and Brené Brown in your response. 
 Advice: 
 `;
 const generateAction = async (req, res) => {
