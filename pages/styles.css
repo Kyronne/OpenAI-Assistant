@@ -283,6 +283,7 @@ textarea {
     border-left-width: 5px;
     border-right-width: 5px;
     border-style: solid;
+    height: min-content;
     border-top-width: 5px;
     padding: 20px;
     max-width: 90%;
