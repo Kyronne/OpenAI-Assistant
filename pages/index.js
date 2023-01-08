@@ -52,7 +52,7 @@ const Home = () => {
         {/* Add this code here*/}
         <div className="prompt-container">
           <div className="prompt-input"><textarea  className="prompt-box" type="text"
-          placeholder="Type here :)." 
+          placeholder="Type here :), put a question mark at the end or AI may autocomplete." 
           value={userInput}
           onChange={onUserChangedText} /> </div>
         <div className="prompt-buttons">
